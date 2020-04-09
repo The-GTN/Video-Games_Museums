@@ -1,5 +1,8 @@
 Nollet Antoine Gr11 SESI
 
+Pour ouvrir le projet, ouvrez dans un navigateur web le fichier 'index.html'
+
+
 règles média-queries :
 						- @media print
 							S'applique lorsque l'affichage est fait sur imprimante
