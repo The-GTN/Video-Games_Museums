@@ -1,0 +1,97 @@
+/* Les titres */
+
+h1:not(:only-of-type) {	
+	border-radius: 8px;
+	margin : 5px 0px;
+	padding : 5px;
+	padding-left: 55px;
+	background-color: rgba(211,211,211,0.7);
+}
+
+h1:nth-of-type(odd) {
+	background-image: url(../images/uncharted.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h1:nth-of-type(even) {
+	background-image: url(../images/assassin.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+
+h1:nth-of-type(2n+3) {
+	background-image: url(../images/diablo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+h1:only-of-type {
+	background-image:url(..images/noir.png);
+}
+
+/* fin titres */
+
+/* images */
+
+p + .cadre {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	border: 4px solid rgba(100, 100, 100, 1);
+	border-radius: 8px;
+}
+
+/* fin images */
+
+/* Les tableaux */
+
+table {
+	border: 2px solid rgba(211,211,211,0.7);
+	position: relative;
+}
+
+th {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+}
+
+
+.ferme {
+	border: 2px solid black;
+	background-color: red ;
+	color: black;
+}
+
+.ouvert {
+	background-color:green;
+	color: black;
+	border: 2px solid black;
+}
+
+table.tarif td {
+	background-color: black;
+	border: 2px solid white;
+	position: relative;
+}
+
+caption {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 8px;
+}
+
+table.tarif td img {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+}
+
+/* fin tableaux */

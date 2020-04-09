@@ -1,0 +1,22 @@
+/* header */
+
+header h1 {
+	font-size: 35px ;
+	position: absolute;
+	left: 45%;
+	transform: translateX(-55%);
+}
+
+nav:nth-of-type(even) {
+	position: absolute;
+	left: 55%;
+}
+
+nav:nth-of-type(odd) {
+	position: absolute;
+	left:0;
+}
+
+/* fin header */
+
+	
